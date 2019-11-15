@@ -1,0 +1,38 @@
+.body{
+    background: black;
+    border:0;
+    margin:0;
+    padding:0;
+}
+.postCard{
+    background: white;
+    height: 300px;
+    width: 500px;
+}
+.postCard .header{
+    width: 100%;
+    height: 50px;
+    background: #CCC;
+}
+.postCard .footer{
+    width: 100%;
+    height: 50px;
+    background: #CCC;
+}
+.postCard .main{
+    background:#333;
+    height: 200px;
+    width: 100%;
+}
+.postCard .main .columnLeft{
+    background:#454;
+    height: 200px;
+    width: 50%;
+    float:left;
+}
+.postCard .main .columnRight{
+    background:#767;
+    height: 200px;
+    width: 50%;
+    float:right;
+}
